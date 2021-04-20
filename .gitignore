@@ -1,0 +1,630 @@
+
+Tugas Mingguan/Tugas 1 - 4/.editorconfig
+Tugas Mingguan/Tugas 1 - 4/.env.example
+Tugas Mingguan/Tugas 1 - 4/.gitattributes
+Tugas Mingguan/Tugas 1 - 4/.styleci.yml
+Tugas Mingguan/Tugas 1 - 4/app/Console/Kernel.php
+Tugas Mingguan/Tugas 1 - 4/app/Exceptions/Handler.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Auth/ForgotPasswordController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Auth/LoginController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Auth/RegisterController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Auth/ResetPasswordController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Auth/VerificationController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Controller.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/Frontend/HomeController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Controllers/GhulamController.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Kernel.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/Authenticate.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/CheckForMaintenanceMode.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/EncryptCookies.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/RedirectIfAuthenticated.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/TrimStrings.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/TrustProxies.php
+Tugas Mingguan/Tugas 1 - 4/app/Http/Middleware/VerifyCsrfToken.php
+Tugas Mingguan/Tugas 1 - 4/app/Profile.php
+Tugas Mingguan/Tugas 1 - 4/app/Providers/AppServiceProvider.php
+Tugas Mingguan/Tugas 1 - 4/app/Providers/AuthServiceProvider.php
+Tugas Mingguan/Tugas 1 - 4/app/Providers/BroadcastServiceProvider.php
+Tugas Mingguan/Tugas 1 - 4/app/Providers/EventServiceProvider.php
+Tugas Mingguan/Tugas 1 - 4/app/Providers/RouteServiceProvider.php
+Tugas Mingguan/Tugas 1 - 4/app/User.php
+Tugas Mingguan/Tugas 1 - 4/artisan
+Tugas Mingguan/Tugas 1 - 4/bootstrap/app.php
+Tugas Mingguan/Tugas 1 - 4/composer.json
+Tugas Mingguan/Tugas 1 - 4/composer.lock
+Tugas Mingguan/Tugas 1 - 4/config/app.php
+Tugas Mingguan/Tugas 1 - 4/config/auth.php
+Tugas Mingguan/Tugas 1 - 4/config/broadcasting.php
+Tugas Mingguan/Tugas 1 - 4/config/cache.php
+Tugas Mingguan/Tugas 1 - 4/config/database.php
+Tugas Mingguan/Tugas 1 - 4/config/filesystems.php
+Tugas Mingguan/Tugas 1 - 4/config/hashing.php
+Tugas Mingguan/Tugas 1 - 4/config/logging.php
+Tugas Mingguan/Tugas 1 - 4/config/mail.php
+Tugas Mingguan/Tugas 1 - 4/config/queue.php
+Tugas Mingguan/Tugas 1 - 4/config/services.php
+Tugas Mingguan/Tugas 1 - 4/config/session.php
+Tugas Mingguan/Tugas 1 - 4/config/view.php
+Tugas Mingguan/Tugas 1 - 4/database/factories/UserFactory.php
+Tugas Mingguan/Tugas 1 - 4/database/migrations/2014_10_12_000000_create_users_table.php
+Tugas Mingguan/Tugas 1 - 4/database/migrations/2014_10_12_100000_create_password_resets_table.php
+Tugas Mingguan/Tugas 1 - 4/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+Tugas Mingguan/Tugas 1 - 4/database/seeds/DatabaseSeeder.php
+Tugas Mingguan/Tugas 1 - 4/package.json
+Tugas Mingguan/Tugas 1 - 4/phpunit.xml
+Tugas Mingguan/Tugas 1 - 4/public/.htaccess
+Tugas Mingguan/Tugas 1 - 4/public/favicon.ico
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/css/style.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/about.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/apple-touch-icon.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-1.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-2.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-3.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-4.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-5.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-6.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-7.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/clients/client-8.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/counts-bg.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/cta-bg.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/favicon.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-2.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-3.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-4.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-5.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-6.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-7.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/gallery/gallery-8.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/hero-img.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/logo.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-2.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-3.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-4.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-5.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-6.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-7.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-8.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-9.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-details-1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-details-2.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/portfolio/portfolio-details-3.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/team/team-1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/team/team-2.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/team/team-3.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/team/team-4.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/testimonials/testimonials-1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/testimonials/testimonials-2.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/testimonials/testimonials-3.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/testimonials/testimonials-4.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/img/testimonials/testimonials-5.jpg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/js/main.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.js.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/css/animations.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/css/boxicons.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/css/boxicons.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/css/transformations.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/fonts/boxicons.eot
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/fonts/boxicons.svg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/fonts/boxicons.ttf
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff2
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/counterup/counterup.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/icofont/fonts/icofont.woff
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/icofont/fonts/icofont.woff2
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/icofont/icofont.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/jquery.easing/jquery.easing.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/jquery/jquery.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/jquery/jquery.min.map
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/css/line-awesome.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/css/line-awesome.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.eot
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.svg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.ttf
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff2
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.eot
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.svg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.ttf
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff2
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.eot
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.svg
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.ttf
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff2
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/ajax-loader.gif
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/assets/owl.video.play.png
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/LICENSE
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/owl.carousel.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/owl.carousel.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/owl.carousel/README.md
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/php-email-form/validate.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/venobox/venobox.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/venobox/venobox.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/venobox/venobox.min.css
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/venobox/venobox.min.js
+Tugas Mingguan/Tugas 1 - 4/public/frontend/assets/vendor/waypoints/jquery.waypoints.min.js
+Tugas Mingguan/Tugas 1 - 4/public/img/gamabr1.jpg
+Tugas Mingguan/Tugas 1 - 4/public/index.php
+Tugas Mingguan/Tugas 1 - 4/public/robots.txt
+Tugas Mingguan/Tugas 1 - 4/public/web.config
+Tugas Mingguan/Tugas 1 - 4/readme.md
+Tugas Mingguan/Tugas 1 - 4/resources/js/app.js
+Tugas Mingguan/Tugas 1 - 4/resources/js/bootstrap.js
+Tugas Mingguan/Tugas 1 - 4/resources/lang/en/auth.php
+Tugas Mingguan/Tugas 1 - 4/resources/lang/en/pagination.php
+Tugas Mingguan/Tugas 1 - 4/resources/lang/en/passwords.php
+Tugas Mingguan/Tugas 1 - 4/resources/lang/en/validation.php
+Tugas Mingguan/Tugas 1 - 4/resources/sass/app.scss
+Tugas Mingguan/Tugas 1 - 4/resources/views/backend/dashboard.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/backend/Layouts/sidebar.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/backend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/Foxee.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/frontend/home.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/frontend/Layouts/navbar.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/frontend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/gambar.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/Layouts/app.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/selamatdatang.blade.php
+Tugas Mingguan/Tugas 1 - 4/resources/views/welcome.blade.php
+Tugas Mingguan/Tugas 1 - 4/routes/api.php
+Tugas Mingguan/Tugas 1 - 4/routes/channels.php
+Tugas Mingguan/Tugas 1 - 4/routes/console.php
+Tugas Mingguan/Tugas 1 - 4/routes/web.php
+Tugas Mingguan/Tugas 1 - 4/server.php
+Tugas Mingguan/Tugas 1 - 4/tests/bootstrap.php
+Tugas Mingguan/Tugas 1 - 4/tests/CreatesApplication.php
+Tugas Mingguan/Tugas 1 - 4/tests/Feature/ExampleTest.php
+Tugas Mingguan/Tugas 1 - 4/tests/TestCase.php
+Tugas Mingguan/Tugas 1 - 4/tests/Unit/ExampleTest.php
+Tugas Mingguan/Tugas 1 - 4/webpack.mix.js
+Tugas Mingguan/Tugas 5/.editorconfig
+Tugas Mingguan/Tugas 5/.env.example
+Tugas Mingguan/Tugas 5/.gitattributes
+Tugas Mingguan/Tugas 5/.styleci.yml
+Tugas Mingguan/Tugas 5/app/Console/Kernel.php
+Tugas Mingguan/Tugas 5/app/Exceptions/Handler.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Auth/ForgotPasswordController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Auth/LoginController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Auth/RegisterController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Auth/ResetPasswordController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Auth/VerificationController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Backend/DashboardController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Controller.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/Frontend/HomeController.php
+Tugas Mingguan/Tugas 5/app/Http/Controllers/GhulamController.php
+Tugas Mingguan/Tugas 5/app/Http/Kernel.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/Authenticate.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/CheckForMaintenanceMode.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/EncryptCookies.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/RedirectIfAuthenticated.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/TrimStrings.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/TrustProxies.php
+Tugas Mingguan/Tugas 5/app/Http/Middleware/VerifyCsrfToken.php
+Tugas Mingguan/Tugas 5/app/Profile.php
+Tugas Mingguan/Tugas 5/app/Providers/AppServiceProvider.php
+Tugas Mingguan/Tugas 5/app/Providers/AuthServiceProvider.php
+Tugas Mingguan/Tugas 5/app/Providers/BroadcastServiceProvider.php
+Tugas Mingguan/Tugas 5/app/Providers/EventServiceProvider.php
+Tugas Mingguan/Tugas 5/app/Providers/RouteServiceProvider.php
+Tugas Mingguan/Tugas 5/app/User.php
+Tugas Mingguan/Tugas 5/artisan
+Tugas Mingguan/Tugas 5/bootstrap/app.php
+Tugas Mingguan/Tugas 5/composer.json
+Tugas Mingguan/Tugas 5/composer.lock
+Tugas Mingguan/Tugas 5/config/app.php
+Tugas Mingguan/Tugas 5/config/auth.php
+Tugas Mingguan/Tugas 5/config/broadcasting.php
+Tugas Mingguan/Tugas 5/config/cache.php
+Tugas Mingguan/Tugas 5/config/database.php
+Tugas Mingguan/Tugas 5/config/filesystems.php
+Tugas Mingguan/Tugas 5/config/hashing.php
+Tugas Mingguan/Tugas 5/config/logging.php
+Tugas Mingguan/Tugas 5/config/mail.php
+Tugas Mingguan/Tugas 5/config/queue.php
+Tugas Mingguan/Tugas 5/config/services.php
+Tugas Mingguan/Tugas 5/config/session.php
+Tugas Mingguan/Tugas 5/config/view.php
+Tugas Mingguan/Tugas 5/database/factories/UserFactory.php
+Tugas Mingguan/Tugas 5/database/migrations/2014_10_12_000000_create_users_table.php
+Tugas Mingguan/Tugas 5/database/migrations/2014_10_12_100000_create_password_resets_table.php
+Tugas Mingguan/Tugas 5/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+Tugas Mingguan/Tugas 5/database/migrations/2021_04_18_110123_create_detail_profile_table.php
+Tugas Mingguan/Tugas 5/database/seeds/DatabaseSeeder.php
+Tugas Mingguan/Tugas 5/database/seeds/DetailProfileSeeder.php
+Tugas Mingguan/Tugas 5/package.json
+Tugas Mingguan/Tugas 5/phpunit.xml
+Tugas Mingguan/Tugas 5/public/.htaccess
+Tugas Mingguan/Tugas 5/public/favicon.ico
+Tugas Mingguan/Tugas 5/public/frontend/assets/css/style.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/about.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/apple-touch-icon.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-1.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-2.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-3.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-4.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-5.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-6.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-7.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/clients/client-8.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/counts-bg.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/cta-bg.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/favicon.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-1.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-2.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-3.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-4.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-5.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-6.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-7.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/gallery/gallery-8.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/hero-img.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/logo.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-1.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-2.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-3.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-4.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-5.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-6.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-7.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-8.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-9.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-details-1.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-details-2.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/portfolio/portfolio-details-3.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/team/team-1.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/team/team-2.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/team/team-3.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/team/team-4.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/testimonials/testimonials-1.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/testimonials/testimonials-2.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/testimonials/testimonials-3.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/testimonials/testimonials-4.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/img/testimonials/testimonials-5.jpg
+Tugas Mingguan/Tugas 5/public/frontend/assets/js/main.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.js.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/css/animations.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/css/boxicons.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/css/boxicons.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/css/transformations.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/fonts/boxicons.eot
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/fonts/boxicons.svg
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/fonts/boxicons.ttf
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff2
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/counterup/counterup.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/icofont/fonts/icofont.woff
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/icofont/fonts/icofont.woff2
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/icofont/icofont.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/jquery.easing/jquery.easing.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/jquery/jquery.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/jquery/jquery.min.map
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/css/line-awesome.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/css/line-awesome.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.eot
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.svg
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.ttf
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff2
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.eot
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.svg
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.ttf
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff2
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.eot
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.svg
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.ttf
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff2
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/ajax-loader.gif
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/assets/owl.video.play.png
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/LICENSE
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/owl.carousel.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/owl.carousel.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/owl.carousel/README.md
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/php-email-form/validate.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/venobox/venobox.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/venobox/venobox.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/venobox/venobox.min.css
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/venobox/venobox.min.js
+Tugas Mingguan/Tugas 5/public/frontend/assets/vendor/waypoints/jquery.waypoints.min.js
+Tugas Mingguan/Tugas 5/public/img/gamabr1.jpg
+Tugas Mingguan/Tugas 5/public/index.php
+Tugas Mingguan/Tugas 5/public/robots.txt
+Tugas Mingguan/Tugas 5/public/web.config
+Tugas Mingguan/Tugas 5/readme.md
+Tugas Mingguan/Tugas 5/resources/js/app.js
+Tugas Mingguan/Tugas 5/resources/js/bootstrap.js
+Tugas Mingguan/Tugas 5/resources/lang/en/auth.php
+Tugas Mingguan/Tugas 5/resources/lang/en/pagination.php
+Tugas Mingguan/Tugas 5/resources/lang/en/passwords.php
+Tugas Mingguan/Tugas 5/resources/lang/en/validation.php
+Tugas Mingguan/Tugas 5/resources/sass/app.scss
+Tugas Mingguan/Tugas 5/resources/views/backend/dashboard.blade.php
+Tugas Mingguan/Tugas 5/resources/views/backend/Layouts/sidebar.blade.php
+Tugas Mingguan/Tugas 5/resources/views/backend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 5/resources/views/Foxee.blade.php
+Tugas Mingguan/Tugas 5/resources/views/frontend/home.blade.php
+Tugas Mingguan/Tugas 5/resources/views/frontend/Layouts/navbar.blade.php
+Tugas Mingguan/Tugas 5/resources/views/frontend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 5/resources/views/gambar.blade.php
+Tugas Mingguan/Tugas 5/resources/views/Layouts/app.blade.php
+Tugas Mingguan/Tugas 5/resources/views/selamatdatang.blade.php
+Tugas Mingguan/Tugas 5/resources/views/welcome.blade.php
+Tugas Mingguan/Tugas 5/routes/api.php
+Tugas Mingguan/Tugas 5/routes/channels.php
+Tugas Mingguan/Tugas 5/routes/console.php
+Tugas Mingguan/Tugas 5/routes/web.php
+Tugas Mingguan/Tugas 5/server.php
+Tugas Mingguan/Tugas 5/tests/bootstrap.php
+Tugas Mingguan/Tugas 5/tests/CreatesApplication.php
+Tugas Mingguan/Tugas 5/tests/Feature/ExampleTest.php
+Tugas Mingguan/Tugas 5/tests/TestCase.php
+Tugas Mingguan/Tugas 5/tests/Unit/ExampleTest.php
+Tugas Mingguan/Tugas 5/webpack.mix.js
+Tugas Mingguan/Tugas 6/.editorconfig
+Tugas Mingguan/Tugas 6/.env.example
+Tugas Mingguan/Tugas 6/.gitattributes
+Tugas Mingguan/Tugas 6/.styleci.yml
+Tugas Mingguan/Tugas 6/app/Console/Kernel.php
+Tugas Mingguan/Tugas 6/app/Exceptions/Handler.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Auth/ForgotPasswordController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Auth/LoginController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Auth/RegisterController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Auth/ResetPasswordController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Auth/VerificationController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Controller.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/Frontend/HomeController.php
+Tugas Mingguan/Tugas 6/app/Http/Controllers/GhulamController.php
+Tugas Mingguan/Tugas 6/app/Http/Kernel.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/Authenticate.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/CheckForMaintenanceMode.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/EncryptCookies.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/RedirectIfAuthenticated.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/TrimStrings.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/TrustProxies.php
+Tugas Mingguan/Tugas 6/app/Http/Middleware/VerifyCsrfToken.php
+Tugas Mingguan/Tugas 6/app/Profile.php
+Tugas Mingguan/Tugas 6/app/Providers/AppServiceProvider.php
+Tugas Mingguan/Tugas 6/app/Providers/AuthServiceProvider.php
+Tugas Mingguan/Tugas 6/app/Providers/BroadcastServiceProvider.php
+Tugas Mingguan/Tugas 6/app/Providers/EventServiceProvider.php
+Tugas Mingguan/Tugas 6/app/Providers/RouteServiceProvider.php
+Tugas Mingguan/Tugas 6/app/User.php
+Tugas Mingguan/Tugas 6/artisan
+Tugas Mingguan/Tugas 6/bootstrap/app.php
+Tugas Mingguan/Tugas 6/composer.json
+Tugas Mingguan/Tugas 6/composer.lock
+Tugas Mingguan/Tugas 6/config/app.php
+Tugas Mingguan/Tugas 6/config/auth.php
+Tugas Mingguan/Tugas 6/config/broadcasting.php
+Tugas Mingguan/Tugas 6/config/cache.php
+Tugas Mingguan/Tugas 6/config/database.php
+Tugas Mingguan/Tugas 6/config/filesystems.php
+Tugas Mingguan/Tugas 6/config/hashing.php
+Tugas Mingguan/Tugas 6/config/logging.php
+Tugas Mingguan/Tugas 6/config/mail.php
+Tugas Mingguan/Tugas 6/config/queue.php
+Tugas Mingguan/Tugas 6/config/services.php
+Tugas Mingguan/Tugas 6/config/session.php
+Tugas Mingguan/Tugas 6/config/view.php
+Tugas Mingguan/Tugas 6/database/factories/UserFactory.php
+Tugas Mingguan/Tugas 6/database/migrations/2014_10_12_000000_create_users_table.php
+Tugas Mingguan/Tugas 6/database/migrations/2014_10_12_100000_create_password_resets_table.php
+Tugas Mingguan/Tugas 6/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+Tugas Mingguan/Tugas 6/database/migrations/2021_04_18_110123_create_detail_profile_table.php
+Tugas Mingguan/Tugas 6/database/seeds/DatabaseSeeder.php
+Tugas Mingguan/Tugas 6/database/seeds/DetailProfileSeeder.php
+Tugas Mingguan/Tugas 6/package.json
+Tugas Mingguan/Tugas 6/phpunit.xml
+Tugas Mingguan/Tugas 6/public/.htaccess
+Tugas Mingguan/Tugas 6/public/favicon.ico
+Tugas Mingguan/Tugas 6/public/frontend/assets/css/style.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/about.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/apple-touch-icon.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-1.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-2.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-3.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-4.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-5.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-6.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-7.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/clients/client-8.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/counts-bg.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/cta-bg.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/favicon.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-1.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-2.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-3.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-4.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-5.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-6.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-7.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/gallery/gallery-8.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/hero-img.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/logo.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-1.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-2.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-3.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-4.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-5.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-6.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-7.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-8.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-9.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-details-1.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-details-2.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/portfolio/portfolio-details-3.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/team/team-1.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/team/team-2.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/team/team-3.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/team/team-4.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/testimonials/testimonials-1.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/testimonials/testimonials-2.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/testimonials/testimonials-3.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/testimonials/testimonials-4.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/img/testimonials/testimonials-5.jpg
+Tugas Mingguan/Tugas 6/public/frontend/assets/js/main.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.js.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.js.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/bootstrap/js/bootstrap.min.js.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/css/animations.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/css/boxicons.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/css/boxicons.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/css/transformations.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/fonts/boxicons.eot
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/fonts/boxicons.svg
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/fonts/boxicons.ttf
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/boxicons/fonts/boxicons.woff2
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/counterup/counterup.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/icofont/fonts/icofont.woff
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/icofont/fonts/icofont.woff2
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/icofont/icofont.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/jquery.easing/jquery.easing.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/jquery/jquery.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/jquery/jquery.min.map
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/css/line-awesome.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/css/line-awesome.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.eot
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.svg
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.ttf
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-brands-400.woff2
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.eot
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.svg
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.ttf
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-regular-400.woff2
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.eot
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.svg
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.ttf
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/line-awesome/fonts/la-solid-900.woff2
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/ajax-loader.gif
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.carousel.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.default.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.theme.green.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/assets/owl.video.play.png
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/LICENSE
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/owl.carousel.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/owl.carousel.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/owl.carousel/README.md
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/php-email-form/validate.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/venobox/venobox.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/venobox/venobox.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/venobox/venobox.min.css
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/venobox/venobox.min.js
+Tugas Mingguan/Tugas 6/public/frontend/assets/vendor/waypoints/jquery.waypoints.min.js
+Tugas Mingguan/Tugas 6/public/img/gamabr1.jpg
+Tugas Mingguan/Tugas 6/public/index.php
+Tugas Mingguan/Tugas 6/public/robots.txt
+Tugas Mingguan/Tugas 6/public/web.config
+Tugas Mingguan/Tugas 6/readme.md
+Tugas Mingguan/Tugas 6/resources/js/app.js
+Tugas Mingguan/Tugas 6/resources/js/bootstrap.js
+Tugas Mingguan/Tugas 6/resources/lang/en/auth.php
+Tugas Mingguan/Tugas 6/resources/lang/en/pagination.php
+Tugas Mingguan/Tugas 6/resources/lang/en/passwords.php
+Tugas Mingguan/Tugas 6/resources/lang/en/validation.php
+Tugas Mingguan/Tugas 6/resources/sass/app.scss
+Tugas Mingguan/Tugas 6/resources/views/backend/dashboard.blade.php
+Tugas Mingguan/Tugas 6/resources/views/backend/Layouts/sidebar.blade.php
+Tugas Mingguan/Tugas 6/resources/views/backend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 6/resources/views/Foxee.blade.php
+Tugas Mingguan/Tugas 6/resources/views/frontend/home.blade.php
+Tugas Mingguan/Tugas 6/resources/views/frontend/Layouts/navbar.blade.php
+Tugas Mingguan/Tugas 6/resources/views/frontend/Layouts/template.blade.php
+Tugas Mingguan/Tugas 6/resources/views/gambar.blade.php
+Tugas Mingguan/Tugas 6/resources/views/Layouts/app.blade.php
+Tugas Mingguan/Tugas 6/resources/views/selamatdatang.blade.php
+Tugas Mingguan/Tugas 6/resources/views/welcome.blade.php
+Tugas Mingguan/Tugas 6/routes/api.php
+Tugas Mingguan/Tugas 6/routes/channels.php
+Tugas Mingguan/Tugas 6/routes/console.php
+Tugas Mingguan/Tugas 6/routes/web.php
+Tugas Mingguan/Tugas 6/server.php
+Tugas Mingguan/Tugas 6/tests/bootstrap.php
+Tugas Mingguan/Tugas 6/tests/CreatesApplication.php
+Tugas Mingguan/Tugas 6/tests/Feature/ExampleTest.php
+Tugas Mingguan/Tugas 6/tests/TestCase.php
+Tugas Mingguan/Tugas 6/tests/Unit/ExampleTest.php
+Tugas Mingguan/Tugas 6/webpack.mix.js
